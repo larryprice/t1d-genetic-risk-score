@@ -6,7 +6,7 @@ ALL_1000G_DIR=23andme-impute
 TMP_DIR=impute-out
 GEN_FILE=imputed-snps-biobank.gen
 
-mkdir -p $OUT
+mkdir -p $TMP_DIR
 rm -r $GEN_FILE
 
 # rs689
